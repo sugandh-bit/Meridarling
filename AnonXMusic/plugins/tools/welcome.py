@@ -89,14 +89,14 @@ async def greet_group(_, member: ChatMemberUpdated):
             caption=f"""
 🌸 𝗥𝗔𝗗𝗛𝗘 𝗥𝗔𝗗𝗛𝗘 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 🌸
 
-    🎉 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ꜰᴀᴍɪʟʏ 🎉          
+  🎉 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ꜰᴀᴍɪʟʏ 🎉          
 
 🥀 ɴᴀᴍᴇ ➤ {user.mention}
 🎀 ᴜsᴇʀɴᴀᴍᴇ ➤ @{user.username}
 🆔 ᴜsᴇʀ ɪᴅ ➤  {user.id}
 🏠 ɢʀᴏᴜᴘ ➤ {member.chat.title}
 
-➖➖➖➖➖➖➖➖➖➖➖➖
+═══════════════════════
 
 ✨ ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ sʜᴀʀᴇ ᴀɴᴅ ᴇɴᴊᴏʏ! ✨
 
@@ -118,14 +118,14 @@ async def bot_wel(_, message):
             await app.send_message(LOG_CHANNEL_ID, f"""
 🌸 𝗥𝗔𝗗𝗛𝗘 𝗥𝗔𝗗𝗛𝗘 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 🌸
 
-    🎉 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ꜰᴀᴍɪʟʏ 🎉          
+  🎉 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ꜰᴀᴍɪʟʏ 🎉          
 
 🥀 ɴᴀᴍᴇ ➤ {user.mention}
 🎀 ᴜsᴇʀɴᴀᴍᴇ ➤ @{user.username}
 🆔 ᴜsᴇʀ ɪᴅ ➤  {user.id}
 🏠 ɢʀᴏᴜᴘ ➤ {member.chat.title}
 
-➖➖➖➖➖➖➖➖➖➖➖➖
+═══════════════════════
 
 ✨ ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ sʜᴀʀᴇ ᴀɴᴅ ᴇɴᴊᴏʏ! ✨
 
