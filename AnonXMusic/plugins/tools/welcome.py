@@ -73,7 +73,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             user.photo.big_file_id, file_name=f"pp{user.id}.png"
         )
     except AttributeError:
-        pic = "AnonXMusic/assets/welcomex12.png"
+        pic = "AnonXMusic/assets/welcomex14.png"
     if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
         try:
             await temp.MELCOW[f"welcome-{member.chat.id}"].delete()
@@ -101,7 +101,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ✨ ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ sʜᴀʀᴇ ᴀɴᴅ ᴇɴᴊᴏʏ! ✨
 
 💝 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➤ @MusiclineTechTeam 🎶💖""",  
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/KUKUFMMUSICRoBOT?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Jio_saavn_rebot?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
